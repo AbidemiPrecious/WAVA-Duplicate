@@ -6,7 +6,7 @@
 }
 /* Hero Page */
 .hero-page{
-  padding: 150px 0px 0px 0px;
+  padding: 150px 0px 0px 0px ;
 }
 .hero-text{
  font-size: 40px ;
@@ -59,6 +59,14 @@
   left: 1px;
   bottom: 0px;
   height: 200px;
+}
+.carousel-inner img{
+  height: 800px;
+  object-fit: contain;
+
+}
+.carousel-control-next{
+ margin-left:-35px ;
 }
 
 /* page 2 end */
@@ -123,7 +131,7 @@
  position: relative;
  background: url(./Images/stars.png) no-repeat top left;
  background-color: #A0CE4E;
- padding: 150px 0;
+ padding: 150px 0px 150px;
  z-index: 3;
  font-size: 50px !important;
  
@@ -334,5 +342,28 @@ hr{
 }
 .pg4-sub{
   text-align: center;
+}
+.right-mob-front{
+  position: absolute;
+  right: 0%;
+  margin: 0px auto;
+  top: 30px;
+  z-index: 1;
+}
+.right-mob-back{
+  position: absolute;
+  left: 35px;
+  top: 30px;
+}
+.left-mob-back{
+  position: absolute;
+  left: -50px;
+  z-index: 1;
+}
+.left-mob-front{
+  position: absolute;
+  right: -20px;
+  margin: 0px auto;
+  z-index: 2;
 }
 }
