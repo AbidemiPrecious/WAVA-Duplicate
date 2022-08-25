@@ -20,7 +20,7 @@
 }
 /* page 2 */
 .pg2-bg{
-  background: url(bg-sky.jpg) no-repeat top center scroll #fff;
+  background: url(./Images/bg-sky.jpg) no-repeat top center scroll #fff;
   background-size: cover;
   width: 100%;
 }
@@ -46,7 +46,7 @@
   font-size: 26px;
 }
 .gradient{
-  background: url(gradient.png) top center;
+  background: url(./Images/gradient.png) top center;
   position: absolute;
   width: 100% !important;
   left: 1px;
@@ -114,7 +114,7 @@
 /* Page 5 */
 .page-5{
  position: relative;
- background: url(stars.png) no-repeat top left;
+ background: url(./Images/stars.png) no-repeat top left;
  background-color: #A0CE4E;
  padding: 150px 0;
  z-index: 3;
@@ -193,7 +193,7 @@
 
 /* Page 8 */
 #page-8{
-  background: url(pattern.png) repeat;
+  background: url(./Images/pattern.png) repeat;
   /* z-index: 3; */
   text-align: center;
 }
@@ -260,6 +260,12 @@
  position: relative;
  z-index: 1;
  overflow: hidden;
+}
+.pg9-btn{
+  background-color: #A0CE4E !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 200 !important;
 }
 /* #pg-9-sec{ */
   /* margin: 100px 0 !important; */
